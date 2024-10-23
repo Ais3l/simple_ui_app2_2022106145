@@ -119,7 +119,7 @@ class _SimpleUIState extends State<SimpleUI> {
   Future<void> getOpenAIResponse(String input) async {
     const apiKey =
         'sk-';
-    final url = 'https://api.openai.com/v1/chat/completions';
+    final url = '';
 
     final response = await http.post(
       Uri.parse(url),
